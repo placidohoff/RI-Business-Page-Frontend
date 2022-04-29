@@ -1,0 +1,169 @@
+body{
+    padding: 30px;
+    line-height: 1.4em;
+    font-size:  large;
+}
+
+.centerX{
+    display: flex;
+    justify-content: center;
+}
+
+.spacer{
+    padding: 20px;
+}
+
+#business-carousel{
+    background-color: #E5E5E5;
+    border: 5px solid black;
+    
+}
+
+.carousel-container{
+    border: 5px solid black;
+    border: 6px;
+}
+
+.contact-col{
+    /* display: flex;
+    align-items: center; */
+}
+
+.p-2{
+    margin-top: -20px;
+}
+
+.row{
+    /* border: 1px solid black;
+    display: flex;
+    justify-content: space-between; */
+}
+
+.col{
+    /* display: flex; */
+}
+
+.search-bn{
+    padding: 4px;
+    border-radius: 5px;
+    font-size: medium;
+}
+
+.p-long{
+    width: 90%;
+}
+
+.p-header-link{
+    font-size: x-large;
+    color: blue;
+}
+
+.p-header-link:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.img-fluid{
+    border: 2px solid black;
+}
+
+.bsn-link-1{
+    background-color: #E5E5E5;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 1px solid black;
+    font-size: small;
+    font-weight: bold;
+    color: blue;
+    line-height: normal;
+    border-radius: 5px;
+    height: 50px;
+    width: 80%;
+    /* width: 400px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bsn-link-1:hover{
+    transform: scale(1.01);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.container{
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 80px;
+    border-radius: 5px;
+}
+
+.p-resources-text{
+    width: 50%;
+    min-width: 250px;
+}
+
+.misc-filings{
+    margin-top: -15px;
+}
+
+.misc-filings li{
+    font-size: medium;
+}
+
+.misc-filings li:hover{
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.inline-link-1{
+    color: blue;
+}
+
+.inline-link-1:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.contact-h1{
+    font-weight: 650;
+}
+
+.centerX-2{
+    display: flex;
+    /* justify-content: space-evenly; */
+}
+
+.img-box:hover{
+    transform: scale(1.01);
+    text-decoration: underline;
+    color:blue;
+    cursor: pointer;
+}
+
+.disc li{
+    font-size: small;
+}
+
+@media only screen and (max-width: 990px){
+    .bsn-link-1{
+        font-size: x-small;
+        /* color: red; */
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .bsn-link-1{
+        /* background-color: #fff; */
+    }
+}
+
+@media only screen and (max-width: 550px){
+    .bsn-link-1{
+        background-color: #fff;
+        border: none;
+    }
+}
+
