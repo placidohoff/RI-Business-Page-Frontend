@@ -6,3 +6,6 @@ Using the GitHub account you created copy the files from this repository to one 
 
 # Goal
 Create a CSS stylesheet styling the page. You have full creaitve license regarding the look and feel of the page alone with any other page you choose to create. This is an opportunity to show your capability in this area. 
+
+#My Code Solution
+My code solution is contained within the file 'BSHoff.html'.
