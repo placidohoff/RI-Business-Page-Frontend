@@ -1,5 +1,5 @@
 body{
-    padding: 30px;
+    /* padding: 30px; */
     line-height: 1.4em;
     font-size:  large;
 }
@@ -7,6 +7,14 @@ body{
 .centerX{
     display: flex;
     justify-content: center;
+}
+
+.navbar{
+    background-color: blue;
+}
+
+.navbar>.container{
+    background-color: blue;
 }
 
 .spacer{
@@ -24,24 +32,11 @@ body{
     border: 6px;
 }
 
-.contact-col{
-    /* display: flex;
-    align-items: center; */
-}
 
 .p-2{
     margin-top: -20px;
 }
 
-.row{
-    /* border: 1px solid black;
-    display: flex;
-    justify-content: space-between; */
-}
-
-.col{
-    /* display: flex; */
-}
 
 .search-bn{
     padding: 4px;
@@ -93,10 +88,18 @@ body{
 }
 
 .container{
-    border: 2px solid black;
+    /* border: 2px solid black; */
     border-radius: 10px;
-    padding: 80px;
+    /* padding: 80px; */
+    padding-left: 150px;
+    padding-right: 150px;
     border-radius: 5px;
+    width: ;
+}
+
+.contain{
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 .p-resources-text{
