@@ -234,3 +234,7 @@ body{
     display: flex;
     /* justify-content: center; */
 }
+
+.dropdown-menu-right {
+    padding-left: 10px;
+}

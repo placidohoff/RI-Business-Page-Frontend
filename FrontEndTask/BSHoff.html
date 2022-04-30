@@ -23,83 +23,93 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-sm navbar-dark sticky-top d-flex" style="height: 100px">
-        <div style="width: 95%" class="d-flex justify-self-center pl-2">
-            <div class="d-flex justify-content-end" style="width: 100%;">
-            <a href="#" class="navbar-brand"><img class="img-fluid" src="Images/ri-logo.svg" height="50" width="50"></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nucampNavbar">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse " id="nucampNavbar">
-                <ul class="navbar-nav">
-                    <li class="nav-item active"> <a class="nav-link" href="#"><i class="fa fa-home fa-lg"></i>Home</a>
-                    </li>
-                    <li class="nav-item"> <a class="nav-link" href="#contact"><i
-                                class="fa fa-info fa-lg"></i>Contact</a></li>
-                    <li class="nav-item"> <a class="nav-link" href="#additional-resources"><i class="fa fa-list fa-lg"></i>Resources</a>
-                    </li>
+    <nav class="navbar navbar-expand-sm navbar-dark sticky-top p-5 d-flex" style="height: 100px">
+        <div style="width: 100%;" class="d-flex justify-self-center pl-2">
+            <div class="d-flex justify-content-start align-items-center" style="width: 100%; background-color: blue;">
+                <a href="#" class="navbar-brand mb-md-4"><img class="img-fluid" src="Images/ri-logo.svg" height="50"
+                        width="50"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#businessPageNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse mb-4" style="background-color: blue;" id="businessPageNav">
+                    <div class="d-md-flex justify-content-between" style="width: 100%;">
+                        <div class="left-side d-flex">
+                            <ul class="navbar-nav">
+                                <li class="nav-item active"> <a class="nav-link" href="#"><i
+                                            class="fa fa-home fa-lg"></i>Home</a>
+                                </li>
+                                <li class="nav-item"> <a class="nav-link" href="#contact"><i
+                                            class="fa fa-info fa-lg"></i>Contact</a></li>
+                                <li class="nav-item"> <a class="nav-link" href="#additional-resources"><i
+                                            class="fa fa-list fa-lg"></i>Resources</a>
+                                </li>
 
-                </ul>
-                <!-- <span class="navbar-text ml-auto">
-                    <a role="button" id="loginButton">
-                        <i class="fa fa-sign-in"></i> Login
-                    </a>
-                </span> -->
-                <div class="d-flex justify-content-end" style="width: 100%;">
-                    <i style="margin-top: 15px; font-size: x-large; color: grey;" class="fa fa-magnifying-glass"></i>
-                    <input type="text" style="height: 40px; width: 70%; max-width: 400px; border-radius: 5px;"
-                        placeholder="Quick Look-Up" />
-                    <button class="search-bn">Search</button>
+                            </ul>
+                        </div>
+
+                        <div class="right-side d-md-flex">
+                            <div class="d-flex">
+                                <i style="margin-top: 15px; font-size: x-large; color: grey;"
+                                    class="fa fa-magnifying-glass"></i>
+                                <input type="text"
+                                    style="height: 40px; width: 70%; max-width: 400px; border-radius: 5px;"
+                                    placeholder="Quick Look-Up" />
+                                <button class="search-bn">Search</button>
+                            </div>
+
+
+                        </div>
+                    </div>
                 </div>
-
-                <div class="dropdown">
+                <div class="btn-group d-flex align-items-center mb-md-4 ml-5">
                     <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
                         data-bs-toggle="dropdown" aria-expanded="false">
                         Quick Links
                     </button>
-                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                        <li><a class="dropdown-item"
-                                href="https://www.google.com/search?q=File+a+Business+Annual+Report"
-                                target="_blank">File
-                                a
-                                Business Annual Report</a></li>
-                        <li><a class="dropdown-item"
-                                href="https://www.google.com/search?q=File+a+non-profit+Annual+Report"
-                                target="_blank">File a
-                                Non-Profit Annual Report</a></li>
-                        <li><a class="dropdown-item" href="https://www.google.com/search?q=Check+business+filing"
-                                target="_blank">Check Filing
-                                Status</a></li>
-                        <li><a class="dropdown-item"
-                                href="https://www.google.com/search?q=New+business+entity+listing"
-                                target="_blank">New
-                                Entity Listing </a></li>
-                        <li><a class="dropdown-item"
-                                href="https://www.google.com/search?q=Reinstate+a+your+business">Reinstate Your
-                                Business</a>
-                        </li>
-                        <li><a class="dropdown-item"
-                                href="https://www.google.com/search?q=Businesses+apostilles-certifications"
-                                target="_blank">Apostilles</a></li>
-                        <li><a class="dropdown-item"
-                                href="https://www.google.com/search?q=Request+a+certificate+of+good+Standing+business"
-                                target="_blank">Request a
-                                Certificate of Good Standing</a></li>
-                        <li><a class="dropdown-item" href="https://www.google.com/search?q=Business+forms+library"
-                                target="_blank">Forms
-                                Library</a></li>
-                        <li><a class="dropdown-item"
-                                href="https://www.google.com/search?q=Email+Subscription+Business+Services"
-                                target="_blank">Email
-                                Subscription Services</a></li>
-                        <li><a class="dropdown-item"
-                                href="https://www.google.com/search?q=One+Day+Marriage+Officiant+Certification"
-                                target="_blank">One-Day Marriage
-                                Officiant Certification</a></li>
-                    </ul>
+
+                    <div class="dropdown-menu dropdown-menu-md-end ml-5" role="menu" aria-labelledby="dropdownMenuButton1">
+                        <button type="button" class="dropdown-item ml-4"
+                            href="https://www.google.com/search?q=File+a+Business+Annual+Report" target="_blank">File
+                            a
+                            Business Annual Report</button>
+                        <button type="button" class="dropdown-item"
+                            href="https://www.google.com/search?q=File+a+non-profit+Annual+Report" target="_blank">File
+                            a
+                            Non-Profit Annual Report</button>
+                        <button type="button" class="dropdown-item"
+                            href="https://www.google.com/search?q=Check+business+filing" target="_blank">Check
+                            Filing
+                            Status</button>
+                        <button type="button" class="dropdown-item"
+                            href="https://www.google.com/search?q=New+business+entity+listing" target="_blank">New
+                            Entity Listing </button>
+                        <button type="button" class="dropdown-item"
+                            href="https://www.google.com/search?q=Reinstate+a+your+business">Reinstate
+                            Your
+                            Business</button>
+
+                        <button type="button" class="dropdown-item"
+                            href="https://www.google.com/search?q=Businesses+apostilles-certifications"
+                            target="_blank">Apostilles</button>
+                        <button type="button" class="dropdown-item"
+                            href="https://www.google.com/search?q=Request+a+certificate+of+good+Standing+business"
+                            target="_blank">Request a
+                            Certificate of Good Standing</button>
+                        <button type="button" class="dropdown-item"
+                            href="https://www.google.com/search?q=Business+forms+library" target="_blank">Forms
+                            Library</button>
+                        <button type="button" class="dropdown-item"
+                            href="https://www.google.com/search?q=Email+Subscription+Business+Services"
+                            target="_blank">Email
+                            Subscription Services</button>
+                        <button type="button" class="dropdown-item"
+                            href="https://www.google.com/search?q=One+Day+Marriage+Officiant+Certification"
+                            target="_blank">One-Day Marriage
+                            Officiant Certification</button>
+                    </div>
+
                 </div>
             </div>
-        </div>
         </div>
     </nav>
 
@@ -120,7 +130,7 @@
                 </div>
 
                 <div class="col-2 d-flex justify-content-end">
-                    
+
                 </div>
             </div>
 
@@ -303,229 +313,232 @@
             </div>
         </div>
 
-    </div>
 
-    <div id="additional-resources" class="contain mt-5">
-        <div class="row">
-            <h2 class="col centerX">
-                Additional Resources
-            </h2>
-        </div>
-        <div class="row">
-            <div class="col-xs-12 col-sm-8">
-                <p class="p-header-link"><a href="https://www.sos.ri.gov/divisions/business-services/business-data-hub/"
-                        target="_blank">Rhode Island Business Hub</a> </p>
-                <p class="p-resources-text">Explore Interactive data from the business landscape across the
-                    state</p>
+
+        <div id="additional-resources" class="contain mt-5">
+            <div class="row">
+                <h2 class="col centerX">
+                    Additional Resources
+                </h2>
             </div>
-            <div class="col-xs-12 col-sm-4">
-                <p class="p-header-link"><a
-                        href="https://www.sos.ri.gov/divisions/business-services/trademark-servicemark/"
-                        target="_blank">Trademarks and Service Marks</a> </p>
-                <p>Search our database of trademarks and service marks or learn how to register a new
-                    mark.</p>
+            <div class="row">
+                <div class="col-xs-12 col-sm-8">
+                    <p class="p-header-link"><a
+                            href="https://www.sos.ri.gov/divisions/business-services/business-data-hub/"
+                            target="_blank">Rhode Island Business Hub</a> </p>
+                    <p class="p-resources-text">Explore Interactive data from the business landscape across the
+                        state</p>
+                </div>
+                <div class="col-xs-12 col-sm-4">
+                    <p class="p-header-link"><a
+                            href="https://www.sos.ri.gov/divisions/business-services/trademark-servicemark/"
+                            target="_blank">Trademarks and Service Marks</a> </p>
+                    <p>Search our database of trademarks and service marks or learn how to register a new
+                        mark.</p>
+                </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-xs-12 col-sm-8">
-                <p class="p-header-link"><a href="https://www.sos.ri.gov/divisions/business-services/probate-forms/"
-                        target="_blank">Probate Forms</a></p>
-                <p>Access probate forms issued by the court</p>
+            <div class="row">
+                <div class="col-xs-12 col-sm-8">
+                    <p class="p-header-link"><a href="https://www.sos.ri.gov/divisions/business-services/probate-forms/"
+                            target="_blank">Probate Forms</a></p>
+                    <p>Access probate forms issued by the court</p>
+                </div>
+                <div class="col-xs-12 col-sm-4">
+                    <p class="p-header-link"><a href="https://www.sos.ri.gov/divisions/business-services/ucc/"
+                            target="_blank">UCC</a></p>
+                    <p>Search or submit a Uniform Commercial Code filing.</p>
+                </div>
             </div>
-            <div class="col-xs-12 col-sm-4">
-                <p class="p-header-link"><a href="https://www.sos.ri.gov/divisions/business-services/ucc/"
-                        target="_blank">UCC</a></p>
-                <p>Search or submit a Uniform Commercial Code filing.</p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-xs-12 col-sm-8">
-                <p class="p-header-link"><a
-                        href="https://www.sos.ri.gov/divisions/Notary-Public/become-a-notary/training-calendar">Training
-                        Calendar</a></p>
-                <p class="p-resources-text">Business Services offer free workshops, summits, and other
-                    educational
-                    opportunities on a
-                    range of topics for small business and non-profit organizations.</p>
-                <p class="mt-0"><a
-                        href="https://www.sos.ri.gov/divisions/Notary-Public/become-a-notary/training-calendar">Click
-                        here to view the event
-                        calendar and sign up today!</a></p>
-            </div>
-            <div class="col-xs-12 col-sm-4">
+            <div class="row">
+                <div class="col-xs-12 col-sm-8">
+                    <p class="p-header-link"><a
+                            href="https://www.sos.ri.gov/divisions/Notary-Public/become-a-notary/training-calendar">Training
+                            Calendar</a></p>
+                    <p class="p-resources-text">Business Services offer free workshops, summits, and other
+                        educational
+                        opportunities on a
+                        range of topics for small business and non-profit organizations.</p>
+                    <p class="mt-0"><a
+                            href="https://www.sos.ri.gov/divisions/Notary-Public/become-a-notary/training-calendar">Click
+                            here to view the event
+                            calendar and sign up today!</a></p>
+                </div>
+                <div class="col-xs-12 col-sm-4">
 
-                <p class="p-header-link">Miscellaneous Filings</p>
-                <ul class="misc-filings">
-                    <li><a href="https://docs.sos.ri.gov/DocumentLibrarySearch?d=game_of_chance">Games of
-                            Chance</a></li>
-                    <li><a href="https://business.sos.ri.gov/corp/FilingForms/1000999.asp?stage=DataInput">Non-Resident
-                            Landlord</a></li>
-                    <li><a
-                            href="https://www.sos.ri.gov/assets/downloads/documents/nonresident-owners-of-amusements.pdf">Non-Resident
-                            Owner of Amusements</a></li>
-                    <li><a href="https://www.sos.ri.gov/">Non-Resident Doing Business in RI</a></li>
-                    <li><a href="https://www.sos.ri.gov/">Athlete Agent Application</a></li>
-                    <li><a href="https://www.sos.ri.gov/">Registration of Credit Bureau</a></li>
-                    <li><a href="https://www.sos.ri.gov/">Sustainable and Green Entities</a></li>
-                </ul>
-            </div>
-        </div>
-
-
-
-        <div class="row mt-3">
-            <div class="col">
-                <p class="p-header-link"><a href="https://opengov.sos.ri.gov/openmeetings"> Community
-                        Outreach</a></p>
-                <p class="p-long">
-                    Business Services partners with schools, non-profit organizations, financial
-                    institutions, business support organizations and community groups to develop trainings
-                    and resources, review data, and identify and prepare for new business trends.
-                </p>
-                <p class="p-long">
-                    Business Services partners with schools, non-profit organizations, financial
-                    institutions, business support organizations and community groups to develop trainings
-                    and resources, review data, and identify and prepare for new business trends.
-
-                    Are you an entity interested in connecting with us? <span>Please contact our office at
-                        401-222-3040 or biztraining@sos.ri.gov.</span>
-
-                </p>
+                    <p class="p-header-link">Miscellaneous Filings</p>
+                    <ul class="misc-filings">
+                        <li><a href="https://docs.sos.ri.gov/DocumentLibrarySearch?d=game_of_chance">Games of
+                                Chance</a></li>
+                        <li><a href="https://business.sos.ri.gov/corp/FilingForms/1000999.asp?stage=DataInput">Non-Resident
+                                Landlord</a></li>
+                        <li><a
+                                href="https://www.sos.ri.gov/assets/downloads/documents/nonresident-owners-of-amusements.pdf">Non-Resident
+                                Owner of Amusements</a></li>
+                        <li><a href="https://www.sos.ri.gov/">Non-Resident Doing Business in RI</a></li>
+                        <li><a href="https://www.sos.ri.gov/">Athlete Agent Application</a></li>
+                        <li><a href="https://www.sos.ri.gov/">Registration of Credit Bureau</a></li>
+                        <li><a href="https://www.sos.ri.gov/">Sustainable and Green Entities</a></li>
+                    </ul>
+                </div>
             </div>
 
 
 
-            <div class="row mt-4">
+            <div class="row mt-3">
+                <div class="col">
+                    <p class="p-header-link"><a href="https://opengov.sos.ri.gov/openmeetings"> Community
+                            Outreach</a></p>
+                    <p class="p-long">
+                        Business Services partners with schools, non-profit organizations, financial
+                        institutions, business support organizations and community groups to develop trainings
+                        and resources, review data, and identify and prepare for new business trends.
+                    </p>
+                    <p class="p-long">
+                        Business Services partners with schools, non-profit organizations, financial
+                        institutions, business support organizations and community groups to develop trainings
+                        and resources, review data, and identify and prepare for new business trends.
+
+                        Are you an entity interested in connecting with us? <span>Please contact our office at
+                            401-222-3040 or biztraining@sos.ri.gov.</span>
+
+                    </p>
+                </div>
+
+
+
+                <div class="row mt-4">
+                    <div class="col">
+                        <p class="p-header-link"><a
+                                href="https://www.sos.ri.gov/divisions/business-services/ri-business/file-your-annual-report">File
+                                Online</a></p>
+                        <div class="p-long">Use our electronic filing system to quickly file your corporate
+                            documents.
+                            Review our <a href="/divisions/business-services/refund-policy" target="_blank">refund
+                                policy</a>.</div>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="row mt-5">
                 <div class="col">
                     <p class="p-header-link"><a
-                            href="https://www.sos.ri.gov/divisions/business-services/ri-business/file-your-annual-report">File
-                            Online</a></p>
-                    <div class="p-long">Use our electronic filing system to quickly file your corporate
-                        documents.
-                        Review our <a href="/divisions/business-services/refund-policy" target="_blank">refund
-                            policy</a>.</div>
+                            href="https://business.sos.ri.gov/CorpWeb/CorpSearch/CorpSearch.aspx">Search
+                            the
+                            Corporate Database</a></p>
+                    <p class="p-long">Search active and inactive businesses registered with the RI Department of
+                        State. Our <a href="https://business.sos.ri.gov/CorpWeb/CorpSearch/CorpSearch.aspx"
+                            target="_blank">Search Guide</a> provides
+                        helpful hints to make your search easier. </p>
+                    <p><a href="https://www.sos.ri.gov/" target="_blank">Learn
+                            more</a> about
+                        the information held by our office.</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="contact" class="contain">
+            <div class="row">
+                <div class="col">
+                    <h2 class="centerX" style="margin-bottom: 30px;">Contact Business Services</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6">
+                    <p class="contact-h1 centerX">Hours of Operation</p>
+                    <p class="p-2 centerX">Mon - Fri 8:30</p>
+                </div>
+                <div class="col-6">
+                    <p class="contact-h1 centerX">Address</p>
+                    <p class="p-2 centerX">148 W. River St., Providence, RI</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-6">
+                    <p class="contact-h1 centerX">Phone</p>
+                    <p class="p-2 centerX">401-222-3040</p>
+                </div>
+                <div class="col-6">
+                    <p class="contact-h1 centerX">Email</p>
+                    <p class="p-2 centerX">corporations@sos.ri.gov</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-3">
+
+                </div>
+                <div class="col">
+                    <p style="margin-left: -5px;"><span style="font-weight: 500;">PARKING:</span> Free visitor
+                        parking. Use bell tower entrance</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col centerX">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2972.2847658267337!2d-71.4146298!3d41.8436971!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e444e384e5e463%3A0x865c6e8f8f6a0be5!2s148%20W%20River%20St%2C%20Providence%2C%20RI%2002904!5e0!3m2!1sen!2sus!4v1576599614935!5m2!1sen!2sus"
+                        width="600" height="370" frameborder="0" style="border:0;" allowfullscreen=""
+                        style="border: 2px solid black;">
+                    </iframe>
+
                 </div>
             </div>
 
         </div>
 
+        <div id="disclaimer" class="contain">
+            <div class="row mt-3">
+                <div class="col">
+                    <strong>DISCLAIMER</strong>
+                </div>
+            </div>
 
-        <div class="row mt-5">
-            <div class="col">
-                <p class="p-header-link"><a href="https://business.sos.ri.gov/CorpWeb/CorpSearch/CorpSearch.aspx">Search
-                        the
-                        Corporate Database</a></p>
-                <p class="p-long">Search active and inactive businesses registered with the RI Department of
-                    State. Our <a href="https://business.sos.ri.gov/CorpWeb/CorpSearch/CorpSearch.aspx"
-                        target="_blank">Search Guide</a> provides
-                    helpful hints to make your search easier. </p>
-                <p><a href="https://www.sos.ri.gov/" target="_blank">Learn
-                        more</a> about
-                    the information held by our office.</p>
+            <div class="row mt-1">
+                <div class="col">
+                    <p>The Rhode Island Department of State/Business Services Division cannot provide you with
+                        legal
+                        advice or
+                        legal referrals. If you are seeking answers to legal questions you will need to find a
+                        private attorney. For
+                        information on choosing and working with a lawyer, you may wish to visit the <a
+                            href="https://ribar.com/" target="_blank">Rhode Island Bar Association</a>. </p>
+                </div>
             </div>
-        </div>
-    </div>
 
-    <div id="contact" class="contain">
-        <div class="row">
-            <div class="col">
-                <h2 class="centerX" style="margin-bottom: 30px;">Contact Business Services</h2>
+            <div class="row mt-2">
+                <div class="col mb-2">
+                    <strong>FOLLOW US</strong>
+                </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-6">
-                <p class="contact-h1 centerX">Hours of Operation</p>
-                <p class="p-2 centerX">Mon - Fri 8:30</p>
-            </div>
-            <div class="col-6">
-                <p class="contact-h1 centerX">Address</p>
-                <p class="p-2 centerX">148 W. River St., Providence, RI</p>
-            </div>
-        </div>
 
-        <div class="row">
-            <div class="col-6">
-                <p class="contact-h1 centerX">Phone</p>
-                <p class="p-2 centerX">401-222-3040</p>
-            </div>
-            <div class="col-6">
-                <p class="contact-h1 centerX">Email</p>
-                <p class="p-2 centerX">corporations@sos.ri.gov</p>
-            </div>
-        </div>
+            <div class="row">
+                <div class="col-3 d-flex justify-content-between">
+                    <span class="fa-stack fa-lg"><a href="https://www.instagram.com/RISecState/"><i
+                                class="fa-brands fa-instagram"></i></a></span>
+                    <span class="fa-stack fa-lg"><a href="https://twitter.com/risecstate"><i
+                                class="fa-brands fa-twitter-square ml-1"></i></a></span>
+                    <span class="fa-stack fa-lg"><a href="https://www.facebook.com/RISecState"><i
+                                class="fa-brands fa-facebook-f ml-1"></i></a></span>
+                    <span class="fa-stack fa-lg"><a
+                            href="https://www.linkedin.com/company/office-of-the-secretary-of-state-nellie-gorbea"><i
+                                class="fa-brands fa-linkedin-in ml-1"></i></a></span>
+                </div>
+                <div class="col-3">
 
-        <div class="row">
-            <div class="col-3">
+                </div>
+                <div class="col-3">
 
-            </div>
-            <div class="col">
-                <p style="margin-left: -5px;"><span style="font-weight: 500;">PARKING:</span> Free visitor
-                    parking. Use bell tower entrance</p>
-            </div>
-        </div>
+                </div>
+                <div class="col-3">
 
-        <div class="row">
-            <div class="col centerX">
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2972.2847658267337!2d-71.4146298!3d41.8436971!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e444e384e5e463%3A0x865c6e8f8f6a0be5!2s148%20W%20River%20St%2C%20Providence%2C%20RI%2002904!5e0!3m2!1sen!2sus!4v1576599614935!5m2!1sen!2sus"
-                    width="600" height="370" frameborder="0" style="border:0;" allowfullscreen=""
-                    style="border: 2px solid black;">
-                </iframe>
-
+                </div>
             </div>
         </div>
 
     </div>
-
-    <div id="disclaimer" class="contain">
-        <div class="row mt-3">
-            <div class="col">
-                <strong>DISCLAIMER</strong>
-            </div>
-        </div>
-
-        <div class="row mt-1">
-            <div class="col">
-                <p>The Rhode Island Department of State/Business Services Division cannot provide you with
-                    legal
-                    advice or
-                    legal referrals. If you are seeking answers to legal questions you will need to find a
-                    private attorney. For
-                    information on choosing and working with a lawyer, you may wish to visit the <a
-                        href="https://ribar.com/" target="_blank">Rhode Island Bar Association</a>. </p>
-            </div>
-        </div>
-
-        <div class="row mt-2">
-            <div class="col mb-2">
-                <strong>FOLLOW US</strong>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-3 d-flex justify-content-between">
-                <span class="fa-stack fa-lg"><a href="https://www.instagram.com/RISecState/"><i
-                            class="fa-brands fa-instagram"></i></a></span>
-                <span class="fa-stack fa-lg"><a href="https://twitter.com/risecstate"><i
-                            class="fa-brands fa-twitter-square ml-1"></i></a></span>
-                <span class="fa-stack fa-lg"><a href="https://www.facebook.com/RISecState"><i
-                            class="fa-brands fa-facebook-f ml-1"></i></a></span>
-                <span class="fa-stack fa-lg"><a
-                        href="https://www.linkedin.com/company/office-of-the-secretary-of-state-nellie-gorbea"><i
-                            class="fa-brands fa-linkedin-in ml-1"></i></a></span>
-            </div>
-            <div class="col-3">
-
-            </div>
-            <div class="col-3">
-
-            </div>
-            <div class="col-3">
-
-            </div>
-        </div>
-    </div>
-
     </div>
     <footer>
     </footer>
