@@ -214,3 +214,23 @@ body{
   transform: translateX(0);
 }
 
+
+.carousel-control-next,
+.carousel-control-prev /*, .carousel-indicators */ {
+    filter: invert(100%);
+    font-weight: bold;
+}
+
+.img-item{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.img-item:hover{
+    transform: scale(1.01);
+}
+
+.carousel-inner{
+    display: flex;
+    /* justify-content: center; */
+}
